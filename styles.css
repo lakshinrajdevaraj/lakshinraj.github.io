@@ -1,8 +1,11 @@
 @font-face {
     font-family: 'VCROSD';
-    src: url('VCR_OSD_MONO.ttf') format('ttf');
+    src: url('VCR_OSD_MONO.woff') format('woff');
+    src: url('VCR_OSD_MONO.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-    font-family: 'VCROSD'
+    font-family: 'VCROSD';
 }
