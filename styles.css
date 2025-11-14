@@ -6,6 +6,7 @@
     font-style: normal;
 }
 
-body {
+#header {
     font-family: 'VCROSD';
+    text-shadow: 0px 0px 30px #FFFFFF; 
 }
