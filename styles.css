@@ -9,10 +9,15 @@
 #header {
     font-family: 'VCROSD';
     text-shadow: 0px 0px 30px #FFFFFF;
-    text-align: center; 
+    text-align: center;
+    animation: flicker 1.2s linear infinite;  
 }
 #rightBorder {
     font-family: 'VCROSD';
     text-shadow: 0px 0px 30px #FFFFFF;
     text-align: center; 
+}
+@keyframes flicker{
+    0%, 100% {opacity: 1;}
+    20%, 40% {opacity: 0.6;}
 }
